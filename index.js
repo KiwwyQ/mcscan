@@ -1,3 +1,4 @@
+//DISCLAIMER: THIS IS FOR EDUCATIONAL PURPOSES ONLY AND I AM NOT RESPONSIBLE FOR ANY MISUSE OF THESE TOOLS!
 const net = require('net');
 const fs = require('fs');
 const mc = require('minecraft-protocol');
