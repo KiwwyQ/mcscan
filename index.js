@@ -32,7 +32,7 @@ client.on('ready', function() {
  client.on('message', async message => {
 if(message.author.id.startsWith(process.env['AU'])){
   if(run == 0){run = 1;}else{run = 0;}
-   message.channel.send(`😈️ Scaning state is now ${run}`)
+   message.channel.send(`Scaning state is now ${run}`)
       if(run == 1){ executeWithRandomDelay(); }
     }
   });
@@ -78,7 +78,7 @@ mc.ping({
     port: port
 }, function(err, res) {
     if (err) {
-        console.log(`[🛑] A ${old} not what we need!`);
+        console.log(`[🛑] A ${old} not respond!`);
   fetch(process.env['CH'], {
   method: 'POST',
   headers: {
